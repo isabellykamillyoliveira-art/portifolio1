@@ -1,0 +1,94 @@
+/* Importando fontes */
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Paleta de cores */
+:root {
+  --cor-principal: #6e859f;
+  --cor-secundaria: #284260;
+  --cor-destaque: #171681; /* cor para hover ou destaques */
+  --cor-modal-bg: #f8f9fa; /* fundo dos modais */
+}
+
+/* Fonte principal do corpo */
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: #ffffff;
+  color: var(--cor-secundaria);
+}
+
+/* Títulos */
+h1,
+h2,
+h3,
+h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+  font-family: 'UnifrakturCook', serif; /* Fraktur nos títulos */
+}
+
+/* Cards dos projetos */
+.card-title {
+  font-weight: 700;
+  font-family: 'UnifrakturCook', serif;
+}
+
+.card-text {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Links no rodapé */
+footer a {
+  color: var(--cor-principal);
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+footer a:hover {
+  color: var(--cor-destaque);
+  text-decoration: underline;
+}
+
+/* Modais */
+.modal-content {
+  background-color: var(--cor-modal-bg);
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.modal-body p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1em;
+}
+
+/* Botões dentro dos modais */
+.modal-footer a.btn {
+  margin-right: 0.5em;
+}
+
+/* Ajustes gerais para responsividade */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Badges de habilidades */
+.badge {
+  font-weight: 500;
+}
+
+/* Hover nos botões dos cards */
+.btn-primary:hover {
+  background-color: var(--cor-destaque);
+  border-color: var(--cor-destaque);
+}

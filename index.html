@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container text-center my-4">
+        <img src="img/isaofoto-removebg-preview.png" alt="avatar da Isa" class="rounded-circle" width="180" height="180">
+        <p class="lead mt-2">Eu sou Isa</p>
+        <h1 class="mb-3">Eu sou estudante!</h1>
+        <p>
+            Estudante do 2º ano do Ensino Médio. 
+            Tenho 16 anos, estudo no Colégio Estadual Pedro Macedo e estou aprendendo programação.
+        </p>
+
+        <h3 class="mt-4">Minhas habilidades</h3>
+        <div>
+            <span class="badge bg-secondary m-1">HTML</span>
+            <span class="badge bg-secondary m-1">CSS</span>
+            <span class="badge bg-secondary m-1">JavaScript</span>
+            <span class="badge bg-secondary m-1">Scratch</span>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="mb-4">Meus projetos</h2>
+        <div class="row justify-content-center">
+
+            <!-- Projeto 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto de leitura">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: uma webpage personalizada</h5>
+                        <p class="card-text">Esse projeto é uma página web.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                            Veja o projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="imagem do segundo projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Outro projeto legal</h5>
+                        <p class="card-text">Descrição breve do segundo projeto.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+                            Veja o projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="imagem do terceiro projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Final</h5>
+                        <p class="card-text">Breve descrição do terceiro projeto.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+                            Veja o projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modais -->
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de livros favoritos...</p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo...</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão principal...</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma fonte importada do Google Fonts...</p>
+                    <img src="img/projeto-1.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-success" target="_blank">Ver projeto ao vivo</a>
+                    <a href="#" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Outro Projeto Legal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Descrição detalhada do segundo projeto...</p>
+                    <img src="img/projeto-2.png" alt="Imagem representativa do segundo projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-success" target="_blank">Ver projeto ao vivo</a>
+                    <a href="#" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Final</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Descrição detalhada do terceiro projeto...</p>
+                    <img src="img/projeto-3.png" alt="Imagem representativa do terceiro projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-success" target="_blank">Ver projeto ao vivo</a>
+                    <a href="#" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/isabellykamillyoliveira-art" target="_blank">GitHub</a> |
+            <a href="mailto:isabally.kamilly.oliveira@escola.pr.gov.br">E-mail</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Maschetti</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
